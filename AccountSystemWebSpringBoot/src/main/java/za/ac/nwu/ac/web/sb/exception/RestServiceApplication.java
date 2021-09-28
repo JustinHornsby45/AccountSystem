@@ -1,12 +1,12 @@
 package za.ac.nwu.ac.web.sb.exception;
-/*
+
 import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiResponse;*/
+import io.swagger.annotations.ApiResponse;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;/*
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import za.ac.nwu.ac.domain.service.GeneralResponse;*/
+import za.ac.nwu.ac.domain.service.GeneralResponse;
 
 @SpringBootApplication
 

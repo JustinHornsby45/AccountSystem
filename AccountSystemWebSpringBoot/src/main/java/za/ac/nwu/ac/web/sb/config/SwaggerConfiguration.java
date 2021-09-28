@@ -17,14 +17,17 @@ import java.util.Collections;
 @Configuration
 @EnableSwagger2
 @Import(springfox.bean.validators.configuration.BeanValidatorPluginsConfiguration.class)
-
 public class SwaggerConfiguration {
+
     @Value("${swagger.application.version}")
     private String applicationVersion;
+
     @Value("${swagger.application.name}")
     private String applicationName;
+
     @Value("${swagger.application.description}")
     private String applicationDescription;
+
     @Bean
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
