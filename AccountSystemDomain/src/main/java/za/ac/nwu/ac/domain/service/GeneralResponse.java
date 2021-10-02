@@ -2,7 +2,6 @@ package za.ac.nwu.ac.domain.service;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
-
 import java.io.Serializable;
 import java.util.Objects;
 
