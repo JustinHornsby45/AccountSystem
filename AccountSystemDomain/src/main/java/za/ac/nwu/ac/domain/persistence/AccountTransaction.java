@@ -42,8 +42,6 @@ public class AccountTransaction implements Serializable {
         return memberId;
     }
 
-
-
     @Column(name = "AMOUNT")
     public Long getAmount() {
         return amount;
