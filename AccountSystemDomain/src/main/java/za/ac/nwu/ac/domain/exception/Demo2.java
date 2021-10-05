@@ -1,10 +1,10 @@
 package za.ac.nwu.ac.domain.exception;
 
-import za.ac.nwu.ac.domain.dto.NewName;
+import za.ac.nwu.ac.domain.dto.AccountTypeDto;
 
 public class Demo2 {
-    private NewName newName;
+    private AccountTypeDto newName;
     public void method(){
-        newName = new NewName();
+        newName = new AccountTypeDto();
     }
 }
