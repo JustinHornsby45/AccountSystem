@@ -7,7 +7,7 @@ import java.util.Objects;
 import java.util.Set;
 
 @Entity
-@Table(name="DEMO_ACCOUNT_TYPE", schema = "VITRSA_SANDBOX")
+@Table(name="ACCOUNT_TYPE", schema = "VITRSA_SANDBOX")
 public class AccountType implements Serializable{
 
     private static final long serialVersionUID = 3833725316797154577l;

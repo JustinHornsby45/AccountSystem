@@ -12,7 +12,6 @@ import za.ac.nwu.ac.domain.service.GeneralResponse;
 
 @RestController
 @RequestMapping("account-type")
-
 public class AccountTypeController {
 
     @GetMapping("/all")
