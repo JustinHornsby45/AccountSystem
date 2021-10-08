@@ -27,4 +27,9 @@ public class ModifyAccountTypeFlowImpl implements ModifyAccountTypeFlow {
     public AccountTypeDto updateAccountType(AccountTypeDto accountType) {
         return translator.updateAccountType(accountType);
     }
+
+    @Override
+    public AccountTypeDto deleteAccountType(String anyString) {
+        return null;
+    }
 }

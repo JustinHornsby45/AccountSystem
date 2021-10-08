@@ -84,13 +84,13 @@ public class AccountTypeController {
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
+    //putmapping
     @PutMapping("{mnemonic}")
     @ApiOperation(value="Updates an existing Account type.",notes = "Updates an existing Account type in the DB.")
     @ApiResponses(value = {
             @ApiResponse(code = 201, message = "Account Type Successfully Created", response = GeneralResponse.class),
             @ApiResponse(code = 400, message = "Bad Request", response = GeneralResponse.class),
             @ApiResponse(code = 500, message = "Internal Server Error", response = GeneralResponse.class)})
-
     public ResponseEntity<GeneralResponse<AccountTypeDto>> updateAccountType(
             @ApiParam(value = "Mnemonic that uniquely identifies the AccountType.",
                     example = "MILES",

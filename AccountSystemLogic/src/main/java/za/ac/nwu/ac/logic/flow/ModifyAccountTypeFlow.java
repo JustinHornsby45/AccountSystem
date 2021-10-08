@@ -7,4 +7,7 @@ import java.time.LocalDate;
 public interface ModifyAccountTypeFlow {
     AccountTypeDto deleteAccountTypeByMnemonic(String mnemonic);
     AccountTypeDto updateAccountType(AccountTypeDto accountType);
+
+    AccountTypeDto deleteAccountType(String anyString);
+
 }

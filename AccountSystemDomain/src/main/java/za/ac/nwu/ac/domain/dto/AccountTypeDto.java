@@ -7,7 +7,6 @@ import za.ac.nwu.ac.domain.persistence.AccountType;
 
 import java.io.Serializable;
 import java.time.LocalDate;
-import java.util.Locale;
 import java.util.Objects;
 
 @ApiModel(value = "AccountType",
@@ -16,6 +15,7 @@ import java.util.Objects;
 public class AccountTypeDto implements Serializable {
     private static final long serialVersionUID = -5346853206480289868L;
 
+    private Long accountTypeId;
     private String mnemonic;
     private String accountTypeName;
     private LocalDate creationDate;
@@ -25,6 +25,13 @@ public class AccountTypeDto implements Serializable {
     }
 
     public AccountTypeDto(String mnemonic, String accountType, LocalDate creationDate) {
+        this.mnemonic = mnemonic;
+        this.accountTypeName = accountType;
+        this.creationDate = creationDate;
+    }
+
+    public AccountTypeDto(Long accountTypeId, String mnemonic, String accountType, LocalDate creationDate) {
+        this.accountTypeId = accountTypeId;
         this.mnemonic = mnemonic;
         this.accountTypeName = accountType;
         this.creationDate = creationDate;
@@ -103,6 +110,7 @@ public class AccountTypeDto implements Serializable {
         return Objects.hash(mnemonic, accountTypeName, creationDate);
     }
 
+
     @Override
     public String toString() {
         return "AccountTypeDto{" +
@@ -111,4 +119,5 @@ public class AccountTypeDto implements Serializable {
                 ", creationDate=" + creationDate +
                 '}';
     }
+
 }
