@@ -14,4 +14,8 @@ public interface AccountTypeTranslator {
     AccountTypeDto getAccountTypeByMnemonic(String mnemonic);
 
     AccountTypeDto getAccountTypeDtoByMnemonic(String mnemonic);
+
+    AccountTypeDto updateAccountType(AccountTypeDto accountType);
+
+    AccountTypeDto deleteAccountTypeByMnemonic(String mnemonic);
 }
