@@ -78,6 +78,10 @@ public class AccountTransaction implements Serializable {
         this.transactionDate = transactionDate;
     }
 
+    public void setAccountType(AccountType accountType) {
+        this.accountType = accountType;
+    }
+
     @Override
     public String toString() {
         return "AccountTransaction{" +

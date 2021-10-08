@@ -72,6 +72,9 @@ public class AccountType implements Serializable{
     public void setCreationDate(LocalDate creationDate) {
         this.creationDate = creationDate;
     }
+    public void setAccountTransactions(Set<AccountTransaction> accountTransactions) {
+        this.accountTransactions = accountTransactions;
+    }
 
     @Override
     public boolean equals(Object o) {
