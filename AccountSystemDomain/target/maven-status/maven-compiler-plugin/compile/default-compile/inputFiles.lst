@@ -1,5 +1,8 @@
 C:\Users\justi\IdeaProjects\AccountSystem\AccountSystemDomain\src\main\java\za\ac\nwu\ac\domain\service\GeneralResponse.java
 C:\Users\justi\IdeaProjects\AccountSystem\AccountSystemDomain\src\main\java\za\ac\nwu\ac\domain\dto\AccountTypeDto.java
+C:\Users\justi\IdeaProjects\AccountSystem\AccountSystemDomain\src\main\java\za\ac\nwu\ac\domain\dto\AccountTransactionDto.java
 C:\Users\justi\IdeaProjects\AccountSystem\AccountSystemDomain\src\main\java\za\ac\nwu\ac\domain\exception\Demo2.java
 C:\Users\justi\IdeaProjects\AccountSystem\AccountSystemDomain\src\main\java\za\ac\nwu\ac\domain\persistence\AccountType.java
 C:\Users\justi\IdeaProjects\AccountSystem\AccountSystemDomain\src\main\java\za\ac\nwu\ac\domain\persistence\AccountTransaction.java
+C:\Users\justi\IdeaProjects\AccountSystem\AccountSystemDomain\src\main\java\za\ac\nwu\ac\domain\persistence\AccountTransactionDetails.java
+C:\Users\justi\IdeaProjects\AccountSystem\AccountSystemDomain\src\main\java\za\ac\nwu\ac\domain\dto\AccountTransactionDetailsDto.java

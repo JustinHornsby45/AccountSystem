@@ -11,13 +11,14 @@ public class AccountTransaction implements Serializable {
 
     private static final long serialVersionUID = 5320578342102714156l;
 
+    private AccountTransactionDetails details;
     private Long transactionId;
     private AccountType accountType;//Foreign Key
     private Long memberId;
     private Long amount;
     private LocalDate transactionDate;
 
-    public AccountTransaction(){
+    public AccountTransaction(Long accountTypeId, Long memberId, Long amount, LocalDate transactionDate){
 
     }
 
@@ -58,6 +59,9 @@ public class AccountTransaction implements Serializable {
         return accountType;
     }
 
+    @OneToOne(targetEntity = AccountTransactionDetails.class, fetch = FetchType.LAZY, mappedBy = "accountTransaction")
+    public AccountTransactionDetails getDetails(){return details;}
+
     public void setTransactionId(Long transactionId) {
         this.transactionId = transactionId;
     }
@@ -80,6 +84,10 @@ public class AccountTransaction implements Serializable {
 
     public void setAccountType(AccountType accountType) {
         this.accountType = accountType;
+    }
+
+    public void setDetails(AccountTransactionDetails details) {
+        this.details = details;
     }
 
     @Override
@@ -105,4 +113,5 @@ public class AccountTransaction implements Serializable {
     public int hashCode() {
         return Objects.hash(transactionId, accountType, memberId, amount, transactionDate);
     }
+
 }
