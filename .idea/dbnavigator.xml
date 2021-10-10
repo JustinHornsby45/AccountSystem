@@ -26,7 +26,8 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="6eb08cc8-e8c2-4351-ad0d-fc49976e2dca">
-        <schema name="HR" object-types="table, view, materialized view, synonym" />
+        <schema name="JUSTIN" object-types="table, view, materialized view, synonym, sequence, procedure, function, package, type, database trigger, dimension, cluster, dblink, constraint, index, column, dataset trigger, nested table" />
+        <schema name="PUBLIC" object-types="synonym, sequence, function, package, type" />
       </connection>
     </loaded-nodes>
   </component>

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: za.ac.nwu.ac.web.sb.controller.AccountTypeControllerTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 3.405 s <<< FAILURE! - in za.ac.nwu.ac.web.sb.controller.AccountTypeControllerTest
-updateAccountType on updateAccountType(za.ac.nwu.ac.web.sb.controller.AccountTypeControllerTest)(za.ac.nwu.ac.web.sb.controller.AccountTypeControllerTest)  Time elapsed: 0.06 s  <<< FAILURE!
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 6.574 s <<< FAILURE! - in za.ac.nwu.ac.web.sb.controller.AccountTypeControllerTest
+updateAccountType on updateAccountType(za.ac.nwu.ac.web.sb.controller.AccountTypeControllerTest)(za.ac.nwu.ac.web.sb.controller.AccountTypeControllerTest)  Time elapsed: 0.098 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<400>
 	at za.ac.nwu.ac.web.sb.controller.AccountTypeControllerTest.updateAccountType(AccountTypeControllerTest.java:137)
 
@@ -10,7 +10,7 @@ updateAccountTypeWithNoOptionalDate on updateAccountTypeWithNoOptionalDate(za.ac
 java.lang.AssertionError: Status expected:<200> but was:<201>
 	at za.ac.nwu.ac.web.sb.controller.AccountTypeControllerTest.updateAccountTypeWithNoOptionalDate(AccountTypeControllerTest.java:158)
 
-deleteAccountType on deleteAccountType(za.ac.nwu.ac.web.sb.controller.AccountTypeControllerTest)(za.ac.nwu.ac.web.sb.controller.AccountTypeControllerTest)  Time elapsed: 0.04 s  <<< FAILURE!
+deleteAccountType on deleteAccountType(za.ac.nwu.ac.web.sb.controller.AccountTypeControllerTest)(za.ac.nwu.ac.web.sb.controller.AccountTypeControllerTest)  Time elapsed: 0.056 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<405>
 	at za.ac.nwu.ac.web.sb.controller.AccountTypeControllerTest.deleteAccountType(AccountTypeControllerTest.java:115)
 

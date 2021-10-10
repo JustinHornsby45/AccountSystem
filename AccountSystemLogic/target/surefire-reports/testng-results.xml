@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="1077" started-at="2021-10-09T16:28:45 CAT" finished-at="2021-10-09T16:28:46 CAT">
+  <suite name="Surefire suite" duration-ms="1873" started-at="2021-10-10T10:05:43 CAT" finished-at="2021-10-10T10:05:45 CAT">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="1077" started-at="2021-10-09T16:28:45 CAT" finished-at="2021-10-09T16:28:46 CAT">
+    <test name="Surefire test" duration-ms="1873" started-at="2021-10-10T10:05:43 CAT" finished-at="2021-10-10T10:05:45 CAT">
       <class name="za.ac.nwu.ac.logic.flow.impl.ModuloTest">
-        <test-method status="PASS" signature="testMod()" name="testMod" duration-ms="1" started-at="2021-10-09T16:28:46 CAT" finished-at="2021-10-09T16:28:46 CAT">
+        <test-method status="PASS" signature="testMod()" name="testMod" duration-ms="1" started-at="2021-10-10T10:05:45 CAT" finished-at="2021-10-10T10:05:45 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMod -->
-        <test-method status="PASS" signature="testModBy0()" name="testModBy0" duration-ms="1" started-at="2021-10-09T16:28:46 CAT" finished-at="2021-10-09T16:28:46 CAT">
+        <test-method status="PASS" signature="testModBy0()" name="testModBy0" duration-ms="1" started-at="2021-10-10T10:05:45 CAT" finished-at="2021-10-10T10:05:45 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testModBy0 -->
       </class> <!-- za.ac.nwu.ac.logic.flow.impl.ModuloTest -->
       <class name="za.ac.nwu.ac.logic.flow.impl.FetchAccountTypeFlowImplTest">
-        <test-method status="PASS" signature="methodToTest()" name="methodToTest" duration-ms="1" started-at="2021-10-09T16:28:46 CAT" finished-at="2021-10-09T16:28:46 CAT">
+        <test-method status="PASS" signature="methodToTest()" name="methodToTest" duration-ms="1" started-at="2021-10-10T10:05:45 CAT" finished-at="2021-10-10T10:05:45 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodToTest -->
       </class> <!-- za.ac.nwu.ac.logic.flow.impl.FetchAccountTypeFlowImplTest -->
       <class name="za.ac.nwu.ac.logic.flow.impl.CreateAccountTypeFlowImplTest">
-        <test-method status="PASS" signature="create()" name="create" duration-ms="977" started-at="2021-10-09T16:28:45 CAT" finished-at="2021-10-09T16:28:46 CAT">
+        <test-method status="PASS" signature="create()" name="create" duration-ms="1693" started-at="2021-10-10T10:05:43 CAT" finished-at="2021-10-10T10:05:45 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- create -->
-        <test-method status="PASS" signature="equals()" name="equals" duration-ms="981" started-at="2021-10-09T16:28:45 CAT" finished-at="2021-10-09T16:28:46 CAT">
+        <test-method status="PASS" signature="equals()" name="equals" duration-ms="1705" started-at="2021-10-10T10:05:43 CAT" finished-at="2021-10-10T10:05:45 CAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- equals -->
